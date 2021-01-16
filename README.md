@@ -1,2 +1,1 @@
-# terraform-gcp-project
-GCPプロジェクトの管理
+# GCPプロジェクトの管理リポジトリ
