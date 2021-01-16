@@ -1,5 +1,5 @@
 module "mintak_deployment" {
-  source = "../../module/project"
+  source = "github.com/mintak21/terraform-modules/gcp/project"
 
   name               = "mintak-deployment"
   billing_account_id = var.billing_account_id
