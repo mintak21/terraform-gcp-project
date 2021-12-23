@@ -1,5 +1,5 @@
 module "mintak" {
-  source = "github.com/mintak21/terraform-modules/gcp/project"
+  source = "github.com/mintak21/terraform-modules.git//gcp/project?ref=v0.1.0"
 
   name               = "mintak"
   billing_account_id = var.billing_account_id
